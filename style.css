@@ -63,3 +63,15 @@ body {
 .item:hover a {
     color: black;
 }
+/* STYLE HANYA AKAN DIPAKAI JIKA UKURAN LAYAR KURANG DARI 768PX */
+@media only screen and (max-width:768px) {
+    .body {
+        height: 150vh;
+    }
+
+
+    .item {
+        width: 350px;
+    }
+    
+}
